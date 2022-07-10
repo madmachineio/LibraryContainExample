@@ -1,11 +1,11 @@
 import XCTest
-@testable import LibraryContainExample
+@testable import First
 
-final class LibraryContainExampleTests: XCTestCase {
+final class FirstTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(DemoLibrary().text, "Hello, World!")
+        XCTAssertEqual(First().text, "Hello, World!")
     }
 }
