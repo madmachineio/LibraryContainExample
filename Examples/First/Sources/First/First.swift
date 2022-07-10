@@ -1,4 +1,4 @@
-import DemoLibrary
+import LibraryContainExample
 
 @main
 public struct First {
